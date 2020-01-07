@@ -77,7 +77,8 @@ module.exports = (env, argv) => {
                             loader: 'sass-loader',
                             options: {
                                 sourceMap: true,
-                                minimize: false
+                                minimize: false,
+                                outputStyle: 'uncompressed'
                             }
                         }
                     ]
